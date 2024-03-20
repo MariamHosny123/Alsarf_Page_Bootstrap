@@ -1,0 +1,549 @@
+body{
+    font-family: droid arabic kufi,sans-serif;
+    direction: rtl;
+  }
+
+.image_flag ,.image_gasoline{
+    width: 10px;
+    height: 10px;
+}
+
+
+button{
+    cursor: pointer;
+}
+
+.currency_link{
+    text-decoration: none;
+    color:#6179a5;
+}
+
+.gold-bar_link{
+    text-decoration: none;
+    color: rgb(202, 172, 0);
+    padding: 10px;
+}
+
+.gasoline_link{
+    text-decoration: none;
+    color:#6179a5;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+.red_text{
+    color:red;
+    font-size: 16px;
+    
+}
+
+.green_text{
+    color:#50a973;
+    font-size: 16px;
+}
+
+.grey_text{
+    color: rgba(86, 87, 87,0.7);
+    font-size: 15px;
+}
+
+.grey_text2{
+    color: rgba(86, 87, 87,0.7);
+    font-size: 20px;
+}
+
+
+tr:hover{
+    background-color: #fafaface;
+}
+
+.currency_title{
+    font-size: 15px;
+}
+
+.currency_number{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.grey_light_text{
+    color: lightgray;
+    font-size: 16px;
+    
+}
+
+.light_text{
+    font-weight: lighter;
+    opacity: 0.7;
+}
+
+.title_currency_price{    
+   color:#6179a5;
+    font-size: 25px;
+}
+
+.bold_text{
+    font-weight: bold;
+    color: #2b2a2a;
+    width: 220px;
+}
+.bold_text_num{
+    font-weight: bold;
+    color: #2b2a2a;
+    font-size: 20px;
+   
+}
+
+.currency_table_header{
+    color: #50a973;
+    font-size: 18px;
+    font-weight: bold;
+    text-align:right;
+    
+}
+
+tr{
+    border-bottom: 1px solid #ddd;
+
+}
+
+
+
+
+
+
+
+
+
+
+.list_btn{
+    width: 140px;
+    height:30px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px  solid gray;
+    padding: 5px;
+    color: #747272;
+    font-size: large ;
+    cursor: pointer;
+
+}
+
+.list_btn_text2{
+    font-size: larger;
+}
+
+
+.list_btn_2{
+    /* display: flex;
+    justify-content: space-between; */
+    width: 120px;
+    height:30px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px  solid gray;
+    padding: 8px;
+    color: #747272;
+    font-size: large ;
+
+}
+.list_btn_arrow{
+    margin: auto;
+    font-size: smaller;
+    margin-right: 5px;
+}
+
+.flag_row{
+    color:black;
+    display: flex;
+    flex-direction:row-reverse;
+
+}
+
+
+.change_currency_grid{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: auto;
+    border-radius: 5px;
+    border: 1px  solid gray;
+    border-collapse:separate;
+
+}
+.row_one{
+    padding: 10px ;
+}
+.row_two{
+    display: flex;
+    background-color: rgba(250, 250, 250, 0.9);
+    font-size: 25px;
+    justify-content: center;
+}
+
+.row_three,.row_four {
+    display: flex;
+    padding: 5px 15px 0px 15px;
+
+}
+.row_four{
+    padding-bottom: 15px;
+}
+.change_currency{
+    border-radius: 5px;
+    border: 1px  solid gray;
+    border-collapse:separate;
+}
+
+.change_currency_text_header{
+    text-align: right; 
+    font-size: 25px;
+    font-weight:bold;
+    padding-bottom: 0;
+    padding-top: 0;
+
+}
+
+.sell_buy_row{
+    background-color: rgba(250, 250, 250, 0.8);
+
+}
+
+.gold_price_grid{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+
+.grid-item{
+    border-bottom: 1px rgb(219, 219, 219) solid; 
+    padding: 10px 5;
+  }
+
+.gasoline_grid{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    font-size: 22px;
+
+}
+
+.foreign_currency_grid{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    font-size: 22px;
+    margin-top: 35px;
+}
+.gold_price{
+    margin-top: 20px;
+}
+
+.change_currency_table ,.gold_price_table ,.foreign_currency_table ,.gasoline_table{
+    font-size: 20px;
+
+}
+
+.image_flag{
+    width: 34px;
+    height: 18px;
+    padding-left:5px;
+}
+.image_gasoline{
+    width: 25px;
+    height: 22px;
+    padding-left: 5px;
+}
+
+.see_all_prices{
+    grid-column: span 2;
+    text-align: left;
+    color: rgb(86, 87, 87);
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.gold_table_header{
+    color: rgb(202, 172, 0);
+}
+
+.foreign_currency_header1{
+    color: rgb(196, 2, 2);
+    font-weight: bolder;
+}
+.foreign_currency_header2{
+    color: rgb(196, 2, 2,0.7);
+}
+
+
+.gasoline_header{
+    color:#6179a5;
+    font-weight: 900;
+}
+
+.row2{
+    /* display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-bottom: 20px; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 40px;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+    }
+
+.change_currency_gold_price{
+    display: flex;
+    flex-direction: column;
+}
+
+.col1{    
+    margin-left: 50px;  
+   
+
+}
+
+.col2{
+    margin-left: 55px;  
+   
+       
+}
+
+
+
+.row3{
+    margin-left: auto;
+    margin-right: 280px;
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: start;  
+    
+}
+
+.news_section2{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    gap: 8px;
+    justify-content: space-around;
+    border-top: 1px rgb(219, 219, 219) solid;
+}
+
+.news_header{
+    /* display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    flex-direction: row-reverse; */
+    display: grid;
+    font-size: 45px;
+    grid-template-columns: auto  auto;
+    gap: 550px;
+    justify-content: space-around;
+    
+}
+
+.col_image_text{
+    position: relative;
+    text-align: center;
+    color: white;
+    
+}
+
+.centered_text {
+    position: absolute;
+    bottom: 8px;
+    left: 12px;
+    font-size: 12px;
+  }
+  
+.news_table{
+    border-collapse: collapse;
+    border-spacing: 40px  0;
+    
+}
+
+.news_table_text{
+    font-family: MyFont;
+    color: rgba(86, 87, 87, 0.911);
+    font-size: larger;
+}
+
+
+.image_news{
+    margin-top: 18px;
+    width: 500px;
+    height: 445px;
+    border-radius: 8px;
+    cursor: pointer;
+
+
+}
+
+.image_table{
+    width: 100px;
+    height: 88px;
+    border-radius: 8px;
+    cursor: pointer;
+} 
+
+.news_row1,.news_row2,.news_row3,.news_row4{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    border-bottom: 1px rgb(219, 219, 219) solid;
+}
+.news_row4{
+    border: white;
+}
+.news_text_rows{
+    margin: 20px;
+    margin-top: 0px;
+}
+
+
+
+.small_btn_text{
+    font-size: 10px;
+    letter-spacing: 1px;
+
+}
+
+
+
+.apple_icon{
+    font-size: 35px;
+    margin: 5px;
+}
+.google_play_image{
+    width: 25px;
+    height:30px ;
+    margin-top: 15px;
+    margin-left: 5px;
+
+}
+
+.footer_table_header{
+    font-size: 30px;
+ }
+
+ .facebook_footer{
+    cursor: pointer;
+}
+.list_text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: rgba(86, 87, 87,0.7);
+    cursor: pointer;
+}
+
+
+.black_btn{
+    display: flex;
+    flex-direction: row;
+    direction: ltr;
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: black;
+    margin-bottom: 5px;
+    cursor: pointer;
+
+}
+
+.black_btn_text{
+    margin: 5px;
+    text-align: center;
+}
+
+
+
+/*
+.footer {
+    background-color:#f7f7f7;
+    border-top-width: 2px;
+    border-top-style: solid;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;    
+    
+ }
+
+ .footer_table{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around; 
+    margin-top: 20px;
+    
+    
+ }
+
+ .footer_table_header{
+    font-size: 30px;
+ }
+
+ .black_btn{
+    display: flex;
+    flex-direction: row;
+    direction: ltr;
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: black;
+    margin-bottom: 5px;
+    cursor: pointer;
+
+}
+
+.facebook_footer{
+    cursor: pointer;
+}
+.list_text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: rgba(86, 87, 87,0.7);
+    cursor: pointer;
+}
+
+.black_btn_text{
+    margin: 5px;
+    text-align: center;
+}
+ 
+.big_btn_text{
+    font-size: 20px;
+}
+
+.small_btn_text{
+    font-size: 10px;
+    letter-spacing: 1px;
+
+}
+
+
+
+.apple_icon{
+    font-size: 35px;
+    margin: 5px;
+}
+.google_play_image{
+    width: 25px;
+    height:30px ;
+    margin-top: 15px;
+    margin-left: 5px;
+
+}
+
+.col2_footer,.col3_footer ,.col4_footer{
+    font-family: MyFont;
+    margin: 0;
+}
+*/

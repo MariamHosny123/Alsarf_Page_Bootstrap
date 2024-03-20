@@ -1,27 +1,648 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html> 
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>الصرف اليوم</title>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/8b1026b911.js" crossorigin="anonymous"></script>
+   
+<link rel="stylesheet" href="assets/css/style.css">
+     <!--Latest compiled and minified CSS     -->
 
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
+<!--    Bootstrap CSS 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css">
+    -->
+    
 </head>
+
+
 <body>
 
-    <div class="container-fluid">
-        <div class="nav nav-bar">
-            
-        </div>
+  <nav class="navbar navbar-inverse">
+    <a class=" " href="/"><img src="assets/images/logo.png" class="navbar-brand"></a>
+    <button class="bg-primary">مصر</button>
+    <i class="bi bi-facebook"></i>
+  </nav>
+
+  <div class="container">
+        <div class="row">
+            <div class=" col-md-4 " id="As3ar_El_sarf">    
+                <table class="table">
+                <tr>
+                    <td>
+                        <span class="title_currency_price">
+                            أسعار الصرف
+                            <a class="currency_link" href="#">&raquo;</a>
+                        </span>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td class="currency_grid_item list_btn"> 
+                        <span class="list_btn_text">
+                            السوق الموازي 
+                        </span>
+                        <span>
+                            <i class='fas fa-angle-down'></i>
+                        </span>  
+                    </td>
+                </tr>
+
+
+                    <tr>
+                        <td class="  currency_table_header " style="margin-left: 100px;">
+                            2024/2/4  11:22
+                        </td>
+                        <td class=" currency_table_header ">
+                            شراء
+                        </td>
+                        <td class=" currency_table_header ">
+                            مبيع
+                        </td>
+                        <td class=" currency_table_header " style="margin-left: 20px;">
+                            الفرق
+                        </td>
+                    </tr>
+
+                            
+                    <tr>
+                        <td class="bold_text">
+                            <img class="image_flag" src="assets/images/united-states.png" alt="US Flag">
+                            <span>
+                                دولار أمريكي
+                            </span>
+                            <span class="grey_text">
+                                (USD):
+                            </span>
+                        </td>
+
+                        <td class="bold_text_num">
+                            60.70
+                        </td>
+
+                        <td class="bold_text_num">
+                            61.70
+                        </td>
+
+                        <td class="red_text" >
+                            2.68%
+                            <i  class='fas fa-angle-down' style='color:red; margin: 5px;'></i>
+                        </td>
+                    </tr>
+                    
+
+                    <tr>
+                        <td class="bold_text">
+                            <img class="image_flag" src="assets/images/european-union.png" alt="EURO Flag">
+                            <span>يورو</span>
+                            <span class="grey_text">
+                                (EUR):
+                            </span>
+                        </td>
+
+                        <td class="bold_text_num">
+                            65.48
+                        </td>
+
+                        <td class="bold_text_num">
+                            66.56
+                        </td>
+
+                        <td class="red_text">
+                            2.68%
+                            <i  class='fas fa-angle-down' style='color:red; margin: 5px;'></i>
+                        </td>
+                    </tr>
+
+                    
+
+
+                    <tr>
+                        <td class="bold_text">
+                            <img class="image_flag" src="assets/images/turkey.png" alt="Turkey Flag">
+                            <span>
+                                ليرة تركية
+                            </span>
+                            <span class="grey_text">
+                                (TRY):
+                            </span>
+                        </td>
+
+                        <td class="bold_text_num">
+                            2
+                        </td>
+
+                        <td class="bold_text_num">
+                            2.03
+                        </td>
+
+                        <td class="red_text">
+                            2.40%
+                            <i  class='fas fa-angle-down' style='color:red; margin: 5px;'></i>
+                        </td>
+                    </tr>
+                    
+
+
+                    <tr>
+                        <td class="bold_text">
+                            <img class="image_flag" src="assets/images/saudi-arabia.png" alt="Saudi Arbia Flag">
+                            <span>
+                                ريال سعودي
+                            </span>
+                            <span class="grey_text">
+                                (SAR):
+                            </span>
+                        </td>
+
+                        <td class="bold_text_num">
+                            16.21
+                        </td>
+
+                        <td class="bold_text_num">
+                            16.48
+                        </td>
+
+                        <td class="red_text">
+                            2.66%
+                            <i  class='fas fa-angle-down' style='color:red; margin: 5px;'></i>
+                        </td>
+
+                    </tr>
+                    
+                                    
+                    <tr>
+                        <td class="bold_text">
+                            <img class="image_flag" src="assets/images/jordon flag.png" alt="Jordon Flag">
+                            <span>
+                                دينار أردني
+                            </span>
+                            <span class="grey_text">
+                                (JOD):
+                            </span>
+                        </td>
+
+                        <td class="bold_text_num">
+                            85.68
+                        </td>
+
+                        <td class="bold_text_num">
+                            87.09
+                        </td>
+
+                        <td class="red_text">
+                            2.68%
+                            <i  class='fas fa-angle-down' style='color:red; margin: 5px;'></i>
+                        </td>
+
+                    </tr>
+
+                    
+                                
+                    <tr>
+                        <td class="bold_text">
+                            <img class="image_flag" src="assets/images/united-arab-emirates.png" alt="UAE Flag">
+                            <span>
+                                درهم اماراتي
+                            </span>
+                            <span class="grey_text">
+                                (AED):
+                            </span>
+                        </td>
+
+                        <td class="bold_text_num">
+                            16.53
+                        </td>
+
+                        <td class="bold_text_num">
+                            16.8
+                        </td>
+
+                        <td class="red_text">
+                            2.72%
+                            <i  class='fas fa-angle-down' style='color:red; margin: 5px;'></i>
+                        </td>
+
+                    </tr>
+
+                    
+                                    
+                    <tr >
+                        <td class="bold_text">
+                            <img class="image_flag" src="assets/images/united-kingdom (1).png" alt="GB Flag">
+                            <span>
+                                جنيه استرليني
+                            </span>
+                            <span class="grey_text" >
+                                (GBP):
+                            </span>
+                        </td>
+
+                        <td class="bold_text_num">
+                            76.68
+                        </td>
+
+                        <td class="bold_text_num">
+                            77.95
+                        </td>
+
+                        <td class="green_text">
+                            2.68%
+                            <i  class='fas fa-angle-down' style='color:green; margin: 5px;'></i>
+                        </td>
+
+                    </tr>
+
+                    
+                                        
+                    <tr  style="border:white;">
+                        <td colspan="4"  class="see_all_prices">
+                            مشاهدة جميع العملات
+                            <a href="#" class="see_all_prices">
+                                &raquo;
+                            </a>
+                        </td>
+
+                    </tr>
+
+                        
+                    
+
+                </table>
+            </div>
+
+            <div class="col-md-4">
+
+                <table id="Mohawel_3omlat" class="table  change_currency_grid">
+                    <tr class="row_one">
+                            <td class="change_currency_text_header">
+                                <span>محول العملات</span> 
+                            </td>
+                        
+                        <td></td>
+                    </tr>
+                    <tr class="row_two">
+                        <td  style="text-align: left;">
+                            <input type="radio" id="buy" name="buy_sell" value="buy" >
+                            <label  for="buy" style="padding-left:60px">
+                                شراء
+                            </label>
+                        </td>
+                    
+                        <td style="text-align: right;">
+                            <input type="radio" id="sell" name="buy_sell" value="sell"checked >
+                            <label for="sell">
+                                مبيع
+                            </label>
+                        </td>
+                    </tr>
+
+                    <tr class="row_three">
+                        <td class="change_currency_table_data">
+                            <input  class="input_btn" type="text" placeholder="المبلغ هنا ...">
+                        </td>
+                        <td class="list_btn_2">
+                            <span class="list_btn_text2">
+                                دولار أمريكي
+                            </span>
+                            <span class="list_btn_arrow">
+                                <i class='fas fa-angle-down'></i>
+                            </span>
+                        </td>
+                    </tr>
+
+                    <tr class="row_four">
+                        <td colspan="2" class="change_currency_table_data">
+                            <input class="input_btn" type="text" placeholder="المبلغ هنا ...">
+                        </td>
+                        <td colspan="2" class="list_btn_2"> 
+                            <span class="list_btn_text2">
+                                جنيه مصري
+                            </span> 
+                            <span class="list_btn_arrow">
+                                <i class='fas fa-angle-down'></i>
+                            </span>
+                        </td>
+                    </tr>
+                </table>
+
+                <div id="As3ar_El_Zahab" class="gold_price_grid">
+                    <div class="grid-item gold_table_header">
+                        أسعار الذهب
+                        <a class="gold-bar_link" href="#">
+                            &raquo;
+                        </a>
+                    </div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item light_text gold_table_header"> 
+                        السعر
+                    </div>
+                
+                    <div class="grid-item">
+                        <img class="image_flag" src="assets/images/gold-bars.png" alt="gold-bars">
+                        <span class="bold_text">
+                            غرام ذهب عيار 18 
+                        </span>
+                    </div>
+                    <div class="grid-item">
+                        <i class='fas fa-angle-up' style='color:green'></i>
+                    </div>
+                    <div class="grid-item">    
+                        <span class="bold_text">
+                            3,242.76
+                            </span>
+                        <span class="light_text">
+                            جنيه
+                        </span>
+                    </div>
+                
+                    <div class="grid-item">
+                        <img class="image_flag" src="assets/images/gold-bars.png" alt="gold-bars">
+                        <span class="bold_text">
+                            غرام ذهب عيار 21 
+                        </span>
+                    </div>
+                    <div class="grid-item">
+                        <i class='fas fa-angle-up' style='color:green'></i>
+                    </div>
+                    <div class="grid-item">
+                        <span class="bold_text">
+                            3,815.02
+                        </span>
+                        <span class="light_text">
+                            جنيه
+                        </span>
+                    </div>
+                
+                    <div class="grid-item">
+                        <img class="image_flag" src="assets/images/gold-bars.png" alt="gold-bars">
+                        <span class="bold_text">
+                            غرام ذهب عيار 24   
+                        </span>
+                    </div>
+                    <div class="grid-item">
+                        <i class='fas fa-angle-up' style='color:green'></i>
+                    </div>
+                    <div class="grid-item">
+                        <span class="bold_text">
+                            4,428.15
+                        </span>
+                        <span class="light_text">
+                            جنيه
+                        </span>
+                    </div>
+                
+                    <div class="grid-item">
+                        <img class="image_flag" src="assets/images/gold-bars.png" alt="gold-bars">
+                        <span class="bold_text">
+                            أونصة الذهب:
+                        </span>
+                    </div>
+                    <div class="grid-item">
+                        <i class='fas fa-angle-up' style='color:green'></i>
+                    </div>
+                    <div class="grid-item">
+                        <span class="bold_text">
+                            2039.68
+                        </span>
+                        <span class="light_text">
+                            دولار
+                        </span>
+                    </div>
+                
+
+                </div>
+
+
+                
+            </div>
         
-    </div>
+    
+            <div class="col-md-4">
+
+                <div id="As3ar_gasoline" class="gasoline_grid">     
+                    <div class=" grid-item gasoline_header">
+                        المحروقات
+                        <a class="gasoline_link" href="#">&raquo;</a>
+                    </div>
+                    <div class="grid-item"></div>
+                    <div class=" grid-item grey_text" style="font-size: 23px;">
+                        السعر
+                    </div>
+                
+                
+                    <div class="grid-item">
+                        <img class="image_gasoline" src="assets/images/gas-station.png" alt="gas-station">
+                        <span class="bold_text">
+                            أوكتان 80
+                        </span>
+                    </div>
+                    <div class="grid-item">
+                        <i class='fas fa-angle-down' style='color:red'></i>
+                    </div>
+                    <div class="grid-item">
+                        <span class="bold_text">
+                            8.75
+                        </span>
+                        <span class="light_text">
+                            جنيه
+                        </span>
+                    </div>
+                
+                    <div class="grid-item">
+                        <img class="image_gasoline" src="assets/images/gas-station.png" alt="gas-station">
+                        <span class="bold_text">
+                            أوكتان 90
+                        </span>
+                    </div>
+                    <div class="grid-item">
+                        <i class='fas fa-angle-down' style='color:red'></i>
+                    </div>
+                    <div class="grid-item">
+                        <span class="bold_text">
+                            10.25
+                        </span>
+                        <span class="light_text">
+                            جنيه
+                        </span>
+                    </div>
+                
+                    <div class="grid-item">
+                        <img class="image_gasoline" src="assets/images/gas-station.png" alt="gas-station">
+                        <span class="bold_text">
+                            أوكتان 95
+                        </span>
+                    </div>
+                    <div class="grid-item">
+                        <i class='fas fa-angle-down' style='color:red'></i>
+                    </div>
+                    <div class="grid-item">
+                        <span class="bold_text">
+                            11.50
+                        </span>
+                        <span class="light_text">
+                            جنيه
+                        </span>
+                    </div>
+                        
+                </div>
+
+                <div id="As3ar_foreign" class="foreign_currency_grid">
+
+                            <div class="grid-item foreign_currency_header1">
+                                العملات
+                                <br>
+                                الأجنبية: 
+                            </div>
+                            <div class="grid-item"></div>
+                            <div class=" grid-item foreign_currency_header2">
+                                الصرف
+                            </div>
+
+                            <div class="grid-item">
+                                <img class="image_flag" src="assets/images/european-union.png" alt="EURO">
+                                <span class="bold_text">
+                                    يورو: 
+                                </span>
+                            </div>
+                            <div class="grid-item">
+                                <i class='fas fa-angle-down' style='color:red'></i>
+                            </div>
+                            <div class="grid-item">
+                                <span class="bold_text">
+                                    1.079
+                                </span>
+                                <span class="light_text">
+                                    دولار
+                                </span>
+                            </div>
+                    
+                            <div class="grid-item">
+                                <img class="image_flag" src="assets/images/turkey.png" alt="Turkey">
+                                <span class="bold_text">
+                                    دولار:
+                                </span>
+                            </div>
+                            <div class="grid-item">
+                                <i class='fas fa-angle-up' style='color:green'></i>
+
+                            </div>
+                            <div class="grid-item">
+                                <span class="bold_text" >
+                                    30.501 
+                                </span>
+                                <span class="light_text">
+                                    ل.ت
+                                </span>
+                            </div>
+                    
+                            <div class="grid-item">
+                                <img class="image_flag" src="assets/images/united-kingdom (1).png" alt="UK">
+                                <span class="bold_text">
+                                    استرليني:
+                                </span>
+                            </div>
+                            <div class="grid-item">
+                                <i class='fas fa-angle-down' style='color:red'></i>
+                            </div>
+                            <div class="grid-item">
+                                <span class="bold_text">
+                                    1.263 
+                                </span>
+                                <span class="light_text">
+                                    دولار
+                                </span>
+                            </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer bg-success  container ">
+            <div class="footer_table border-top-10 border-dark m-10">
+                <div class=" col-md-3">               
+                    <span class="footer_table_header">
+                        تطبيقنا على:
+                    </span> 
+                    <div>
+                        <a href="https://www.apple.com" target="_blank" style="text-decoration: none;">
+                            <div class="black_btn">
+                                <div class="">
+                                    <i class="fa-brands fa-apple apple_icon"></i>
+                                </div>
+                                <div class="black_btn_text">
+                                    <span class="small_btn_text" >
+                                        Download on the
+                                    </span> 
+                                    <br> 
+                                    <span class="big_btn_text">
+                                        App Store
+                                    </span>
+                                </div> 
+                            </div>
+                        </a>
+
+
+                            <a href="https://play.google.com/store/games?device=phone" target="_blank" style="text-decoration: none;">
+                                <div class="black_btn">
+                                    <div>
+                                        <img class="google_play_image" src="assets/images/google-play.png">
+                                    </div>
+                                    <div class="black_btn_text">
+                                        <span class="small_btn_text" >
+                                            Android App on
+                                        </span> 
+                                        <br> 
+                                        <span class="big_btn_text">
+                                            Google Play
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                    </div>
+                </div>
+                <div class="col-md-3  footer_table_header">
+                <span>
+                    روابط
+                    </span>      
+                    <li>
+                        <a href="https://www.facebook.com" target="_blank" style="text-decoration: none;">
+                            <span class="list_text">
+                                تواصل معنا
+                            </span>
+                        </a>
+                    </li>    
+                </div>
+                <div class="col-md-3   footer_table_header ">
+                    تابعنا على:
+                    <div class="facebook_footer">
+                        <a href="https://www.facebook.com" target="_blank">
+                            <img src="assets/images/facebook-color-32.png" alt="facebook-colored-icon" >
+                        </a>
+                    </div>
+                </div>
+                <div class=" col-md-3 ">
+                    <span>
+                        جميع الحقوق محفوظة لموقع الصرف اليوم
+                    </span> 
+                    <br>
+                    <span>
+                        2023-2022 &copy;
+                    </span>
+                </div>
+            </div>
+        </footer>
+</div>
+
+
+
+
+
     
 </body>
 </html>
+
+
+
