@@ -1,13 +1,13 @@
 body{
-    font-family: droid arabic kufi,sans-serif;
-    direction: rtl;
-  }
+    font-family: droid arabic kufi,sans-serif; 
+    
+
+}
 
 .image_flag ,.image_gasoline{
     width: 10px;
     height: 10px;
 }
-
 
 button{
     cursor: pointer;
@@ -54,9 +54,7 @@ button{
 }
 
 
-tr:hover{
-    background-color: #fafaface;
-}
+
 
 .currency_title{
     font-size: 15px;
@@ -87,12 +85,12 @@ tr:hover{
 .bold_text{
     font-weight: bold;
     color: #2b2a2a;
-    width: 220px;
+    font-size: 19px;
 }
 .bold_text_num{
     font-weight: bold;
     color: #2b2a2a;
-    font-size: 20px;
+    font-size: 18px;
    
 }
 
@@ -104,13 +102,19 @@ tr:hover{
     
 }
 
-tr{
-    border-bottom: 1px solid #ddd;
+
+.input_btn{
+    margin: 5PX;
+    width: 100%;
+}
+.input_btn2{
+    width: 80%;
 
 }
 
-
-
+.big_text{
+    font-size: 20px;
+}
 
 
 
@@ -134,7 +138,7 @@ tr{
 }
 
 .list_btn_text2{
-    font-size: larger;
+    font-size: 24px;
 }
 
 
@@ -213,10 +217,7 @@ tr{
 }
 
 .gold_price_grid{
-    display: grid;
-    grid-template-columns: repeat(3,auto);
     font-size: 22px;
-    margin-top: 15px;
 }
 
 
@@ -226,17 +227,13 @@ tr{
   }
 
 .gasoline_grid{
-    display: grid;
-    grid-template-columns: repeat(3,auto);
     font-size: 22px;
 
 }
 
 .foreign_currency_grid{
-    display: grid;
-    grid-template-columns: repeat(3,auto);
+
     font-size: 22px;
-    margin-top: 35px;
 }
 .gold_price{
     margin-top: 20px;
@@ -326,11 +323,7 @@ tr{
 }
 
 .news_section2{
-    display: grid;
-    grid-template-columns: auto auto;
-    padding: 10px;
-    gap: 8px;
-    justify-content: space-around;
+ 
     border-top: 1px rgb(219, 219, 219) solid;
 }
 
