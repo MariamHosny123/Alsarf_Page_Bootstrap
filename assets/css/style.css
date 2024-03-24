@@ -4,6 +4,44 @@ body{
 
 }
 
+
+
+.navbar_first_color{
+    background-color: #18293c;
+    color: aliceblue;
+
+}
+
+.navbar_second_color{
+    background-color: #1d3147;
+    color: aliceblue;
+
+}
+
+.egy_btn{
+    background-color: #1d3147;
+    color: aliceblue;
+
+}
+
+.menu{
+    font-size: 25px;
+    width: 45px;
+    background-color:#18293c;
+    border: 1px solid white;
+    box-shadow: #ddd;
+    color: white;
+    border-radius: 8px;
+    border-color: 38495b;
+    margin: 5px;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+    height: 50px;
+}
+
+
+
 .image_flag ,.image_gasoline{
     width: 10px;
     height: 10px;
