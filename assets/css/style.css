@@ -161,12 +161,7 @@ button{
     margin-right: 5px;
 }
 
-.flag_row{
-    color:black;
-    display: flex;
-    flex-direction:row-reverse;
 
-}
 
 
 .change_currency_grid{
@@ -256,8 +251,7 @@ button{
 }
 
 .see_all_prices{
-    grid-column: span 2;
-    text-align: left;
+    text-align: center;
     color: rgb(86, 87, 87);
     font-size: 25px;
     text-decoration: none;
@@ -281,46 +275,10 @@ button{
     font-weight: 900;
 }
 
-.row2{
-    /* display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    margin-bottom: 20px; */
-    display: grid;
-    grid-template-columns: auto auto auto;
-    margin-top: 40px;
-    justify-content: center;
-    margin-bottom: 50px;
-    
-    }
-
-.change_currency_gold_price{
-    display: flex;
-    flex-direction: column;
-}
-
-.col1{    
-    margin-left: 50px;  
-   
-
-}
-
-.col2{
-    margin-left: 55px;  
-   
-       
-}
 
 
 
-.row3{
-    margin-left: auto;
-    margin-right: 280px;
-    display: grid;
-    grid-template-rows: auto auto;
-    justify-content: start;  
-    
-}
+
 
 .news_section2{
  
@@ -328,15 +286,9 @@ button{
 }
 
 .news_header{
-    /* display: flex;
-    justify-content: space-between;
-    font-size: 30px;
-    flex-direction: row-reverse; */
-    display: grid;
+    
     font-size: 45px;
-    grid-template-columns: auto  auto;
-    gap: 550px;
-    justify-content: space-around;
+    
     
 }
 
@@ -406,8 +358,6 @@ button{
 
 }
 
-
-
 .apple_icon{
     font-size: 35px;
     margin: 5px;
@@ -424,9 +374,7 @@ button{
     font-size: 30px;
  }
 
- .facebook_footer{
-    cursor: pointer;
-}
+
 .list_text{
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
@@ -456,87 +404,3 @@ button{
 }
 
 
-
-/*
-.footer {
-    background-color:#f7f7f7;
-    border-top-width: 2px;
-    border-top-style: solid;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 50px;    
-    
- }
-
- .footer_table{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    justify-content: space-around; 
-    margin-top: 20px;
-    
-    
- }
-
- .footer_table_header{
-    font-size: 30px;
- }
-
- .black_btn{
-    display: flex;
-    flex-direction: row;
-    direction: ltr;
-    background-color: black;
-    color: white;
-    width: 150px;
-    height: 50px;
-    border-radius: 5px;
-    border-color: black;
-    margin-bottom: 5px;
-    cursor: pointer;
-
-}
-
-.facebook_footer{
-    cursor: pointer;
-}
-.list_text{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
-    color: rgba(86, 87, 87,0.7);
-    cursor: pointer;
-}
-
-.black_btn_text{
-    margin: 5px;
-    text-align: center;
-}
- 
-.big_btn_text{
-    font-size: 20px;
-}
-
-.small_btn_text{
-    font-size: 10px;
-    letter-spacing: 1px;
-
-}
-
-
-
-.apple_icon{
-    font-size: 35px;
-    margin: 5px;
-}
-.google_play_image{
-    width: 25px;
-    height:30px ;
-    margin-top: 15px;
-    margin-left: 5px;
-
-}
-
-.col2_footer,.col3_footer ,.col4_footer{
-    font-family: MyFont;
-    margin: 0;
-}
-*/
